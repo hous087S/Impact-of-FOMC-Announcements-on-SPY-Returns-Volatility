@@ -1,4 +1,4 @@
-# 📈 Impact of FOMC Announcements on SPY Returns & Volatility
+# Impact of FOMC Announcements on SPY Returns & Volatility
 
 > An econometric study of how Federal Reserve monetary policy decisions shape U.S. equity market behavior — combining ARX and GARCH modeling on 15+ years of daily data.
 
@@ -61,12 +61,12 @@ $$\log(h_t) = \alpha + \delta_0 D_t^{\text{meet}} + \delta_1 D_{t+1}^{\text{meet
 | Fed Funds Target Rate (upper) | FRED API | `DFEDTARU` |
 | Fed Funds Target Rate (lower) | FRED API | `DFEDTARL` |
 
-> ⚠️ **Note:** A FRED API key is required to download the rate data. Insert your key in the `API_KEY` variable in the data ingestion cell.  
+>  **Note:** A FRED API key is required to download the rate data. Insert your key in the `API_KEY` variable in the data ingestion cell.  
 > Get a free key at: https://fred.stlouisfed.org/docs/api/api_key.html
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ```
 Python 3.x
@@ -79,7 +79,7 @@ Python 3.x
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # 1. Clone the repository
@@ -98,7 +98,7 @@ jupyter notebook ML_Trading_PortMan.ipynb
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 .
@@ -108,7 +108,7 @@ jupyter notebook ML_Trading_PortMan.ipynb
 
 ---
 
-## 📌 Limitations & Extensions
+## Limitations & Extensions
 
 - **Intraday granularity:** Daily data blurs the 14:00–16:00 reaction window. Tick-level data would sharpen the event study.
 - **International spillovers:** Extending to European or Asian indices would reveal cross-market transmission channels.
